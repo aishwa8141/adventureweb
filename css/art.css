@@ -1,0 +1,282 @@
+.body{
+   width: 100%;
+   margin-left: 3px;
+   margin-right: 3px;
+   margin-bottom: 0px;
+    margin-top: 0px;
+    overflow-x: hidden;
+}
+.mainheader{
+    position: fixed;
+    width: 100%;
+    height: auto;
+    margin: 0px;
+  
+}
+.mainheader ul{
+    
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+.mainheader a{
+    display: inline;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: 'Crimson Text', serif;
+    font-size: 20px;
+   
+}
+.mainheader li{
+    display: inline;
+    text-align: center;
+    
+}
+.navbar{
+    text-align: center;
+    margin: 0px;
+    padding-top: 15px;
+    z-index:100;
+}
+.mainheader a:hover{
+    text-decoration: underline;
+    font-size: 20px;
+    background-color: gray;
+}
+/* hero image*/
+
+#hero img{
+    width: 1287px;
+    height: 100%;
+    display: block;
+    background-position: 8px;
+    overflow: hidden;
+    padding-top: 0px;
+    
+}
+/*responsive hero image*/
+@media screen and (max-width:900px){
+    #hero img{
+        width: 100%;
+        display: block;
+
+    }
+}
+@media screen and (max-width:350px){
+    #hero img{
+        padding-top: 150px;
+    }
+    #description{
+        top: 300px;
+        padding-top: 200px;
+        display: block;
+         font-size: 15px;
+         text-align: end;
+       } 
+
+}
+  /* text on image*/
+#description {
+        font-family: 'Crimson Text', serif;
+        font-weight: 500;
+        font-size: 20px;
+        color: rgb(119, 153, 151);
+        position: absolute;
+        bottom: 300px;
+        right: 16px;
+    }
+    /* responsive for an text on image*/
+@media screen and (max-width:450px){
+   #description{
+    position: absolute;
+     top: 50px;
+     font-size: 15px;
+     text-align: end;
+   } 
+}
+
+
+#contentarea{
+width: 100%;
+}
+
+ #contentimg{
+    border-radius: 300px;
+    
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 75%;
+}
+
+@media screen and (max-width:512px){
+    #preview p{
+        padding-left: 1px; 
+        padding-right: 0px;
+        text-align: center;
+        width: 100%;
+        height: auto; 
+        overflow: hidden;
+}}
+#preview {
+   
+    width: 100%;
+   float:none;
+  height: auto;
+}
+#preview a{
+    font-family: 'Crimson Text', serif;
+    color: rgb(87, 84, 84);
+    text-decoration: none;
+    
+}
+#preview{
+   
+    margin: 20px auto;
+    font-family: 'Crimson Text', serif;
+    line-height: 25px;
+    letter-spacing: 2px;
+    text-align: justify;
+    color: rgb(27, 26, 26);
+    display: block;
+
+}
+
+#mainsec{
+           margin: 0 auto;
+        max-width: 1200px;
+        padding: 0 1rem;
+      
+}
+#secsection{
+    margin: 0 auto;
+        max-width: 1200px;
+        padding: 0 1rem;
+}
+.first img {
+    display: block;
+    display: flex;
+
+  }
+
+#mainsec{
+    font-family: 'Crimson Text', serif;
+    text-align: center;
+    color: #333;
+}
+#secsection{
+    font-family: 'Crimson Text', serif;
+    text-align: center;
+    color: #333; 
+}
+#mainsec h3{
+    font-family: 'Crimson Text', serif;
+    text-align: center;
+    text-shadow: rgb(87, 84, 84);
+    color: black;
+    font-size: 20px;
+}
+secsection h3{
+    font-family: 'Crimson Text', serif;
+    text-align: center;
+    text-shadow: rgb(87, 84, 84);
+    color: black;
+    font-size: 20px;
+}
+.grid {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: center;
+     
+      
+    }
+    .first p{
+        font-family: 'Crimson Text', serif;
+    }
+    .first {
+      flex:25%;
+      font-family: 'Crimson Text', serif;
+    }
+    .fa {
+        padding: 20px;
+        font-size: 30px;
+        width: 50px;
+        text-align: center;
+        text-decoration: none;
+        margin: 5px 2px;
+      }
+      
+      .fa:hover {
+          opacity: 0.7;
+      }
+      
+      .fa-facebook {
+        background: #3B5998;
+        color: white;
+      }
+      
+      .fa-twitter {
+        background: #55ACEE;
+        color: white;
+      }
+      
+      .fa-google {
+        background: #dd4b39;
+        color: white;
+      }
+      
+      .fa-linkedin {
+        background: #007bb5;
+        color: white;
+      }
+      
+      .fa-youtube {
+        background: #bb0000;
+        color: white;
+      }
+      
+      .fa-instagram {
+        background: #125688;
+        color: white;
+      }
+      .footer {
+        
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        background-color: rgb(163, 204, 211);
+        color: white;
+        text-align: center;
+     }
+    
+
+     @media (max-width:900px){
+         .first{
+             flex:50%;
+             max-width: 50%;
+         }
+     }
+
+
+     @media (max-width:550px){
+         .first{
+             flex:100%;
+             max-width: 100%;
+         }
+     }
+
+
+     @media screen and (max-width:350px){
+         .navbar li a{
+            float: none;
+            display: block; 
+            height: 10px;
+            z-index: 100;
+         }
+     }
+
